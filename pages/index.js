@@ -200,7 +200,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-teal-500 rounded-full animate-jelly"></div>
             <div className="relative w-full h-full rounded-full overflow-hidden bg-white shadow-xl hover:scale-105 transition-transform">
               <img
-                src="/jaga.png"
+                src="/picja.png"
                 layout="fill"
                 objectFit="cover"
                 alt="Profile Picture"
