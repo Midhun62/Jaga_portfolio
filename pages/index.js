@@ -200,7 +200,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-teal-500 rounded-full animate-jelly"></div>
             <div className="relative w-full h-full rounded-full overflow-hidden bg-white shadow-xl hover:scale-105 transition-transform">
               <img
-                src="/jaga.jpeg"
+                src="/jaga.png"
                 layout="fill"
                 objectFit="cover"
                 alt="Profile Picture"
@@ -367,7 +367,7 @@ export default function Home() {
                   <div className="col-span-4 w-full h-full">
                     <div className="w-full h-full bg-teal-500 rounded-md p-2 md:pl-4">
                       <h1 className="text-xl font-medium py-2">BERRIBOT, Coimbatore</h1>
-                      <p className="font-light pb-2">2024 - 2025</p>
+                      <p className="font-light pb-2">FEB 2025 - JUL 2025</p>
                       <p className="sm:text-sm text-xs">Working as a Junior Analyst</p>
                     </div>
                   </div>
