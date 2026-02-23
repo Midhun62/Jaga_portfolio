@@ -304,7 +304,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-16 mb-20">
-              <h2 className="text-3xl font-bold text-center mb-8 text-teal-500 dark:text-teal-500">Education</h2>
+              <h2 className="text-3xl font-bold text-center mb-8 text-teal-500 dark:text-teal-500">Timeline</h2>
               <div className="w-full flex justify-center items-center text-blue-50 pt-10">
                 <div className="max-w-7xl mx-auto w-full grid grid-cols-9">
                   {/* Timeline Item 1 */}
@@ -368,7 +368,7 @@ export default function Home() {
                     <div className="w-full h-full bg-teal-500 rounded-md p-2 md:pl-4">
                       <h1 className="text-xl font-medium py-2">BERRIBOT, Coimbatore</h1>
                       <p className="font-light pb-2">FEB 2025 - JUL 2025</p>
-                      <p className="sm:text-sm text-xs">Working as a Junior Analyst</p>
+                      <p className="sm:text-sm text-xs">Worked on berribot as a Junior Analyst</p>
                     </div>
                   </div>
 
@@ -382,7 +382,7 @@ export default function Home() {
                   <div className="col-span-4 w-full h-full"></div>
                   <div className="relative  col-span-1 w-full h-full flex justify-center items-center">
                     <div className="h-full w-1 bg-teal-500"></div>
-                    <div className="absolute w-6 h-6 rounded-full bg-teal-500 z-10 text-black text-center blinking">4</div>
+                    <div className="absolute w-6 h-6 rounded-full bg-teal-500 z-10 text-black text-center blinking">6</div>
                   </div>
 
                   <div className="col-span-4 w-full h-full">
