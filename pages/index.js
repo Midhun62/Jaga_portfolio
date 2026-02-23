@@ -145,9 +145,9 @@ export default function Home() {
               <li>
                 <a href="#about" className="text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-2 py-2 rounded-md hover:text-white">About</a>
               </li>
-              {/* <li>
-                <a href="#Projects" className="text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-2 py-2 rounded-md hover:text-white">Projects</a>
-              </li> */}
+              <li>
+                <a href="#Experience" className="text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-2 py-2 rounded-md hover:text-white">Experience</a>
+              </li>
               <li>
                 <a href="#contact" className="text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-2 py-2 rounded-md hover:text-white">Contact Me</a>
               </li>
@@ -181,9 +181,9 @@ export default function Home() {
                 <li>
                   <a href="#about" className="block text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md hover:text-white dark:text-white">About</a>
                 </li>
-                {/* <li>
-                  <a href="#Projects" className="block text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md hover:text-white dark:text-white">Projects</a>
-                </li> */}
+                <li>
+                  <a href="#Experience" className="block text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md hover:text-white dark:text-white">Experience</a>
+                </li>
                 <li>
                   <a href="#contact" className="block text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md hover:text-white dark:text-white">Contact Me</a>
                 </li>
@@ -502,58 +502,61 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section id="Projects">
+        <section id="Experience">
           <div className="py-8">
-            <h3 className="text-2xl md:text-3xl py-1 dark:text-white font-semibold">Projects</h3>
+            <h3 className="text-2xl md:text-3xl py-1 dark:text-white font-semibold">
+              Experience
+            </h3>
+
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As I continue to grow in my journey as a web developer, I am currently working on a variety of web-based projects, refining my skills and expanding my portfolio. I am actively learning and preparing to venture into app development, with plans to start building innovative applications very soon.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              My goal is to collaborate with forward-thinking companies where I can apply my expertise, contribute to impactful projects, and continue my professional growth in the tech industry.
+              My professional journey has provided me with hands-on exposure to AI data
+              operations and innovative product research. I have worked both in an
+              organizational environment and as part of a founding team to build
+              next-generation AI-powered solutions.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10">
 
-            Project Card 1
-            <div className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-transform duration-300">
-              <div className="p-6">
-                <img src="/Login.png" alt="Project 2 Thumbnail" className="h-48 w-full object-cover rounded-t-lg mb-4" />
-                <h3 className="text-center text-xl font-semibold mb-2 dark:text-black">Login Page</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-center">Simple login page for email and password validation</p>
-                <div className="text-center mt-4">
-                  <a href=" https://midhun62.github.io/Login_Page/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View on GitHub</a>
-                </div>
-              </div>
+          <div className="space-y-8 mt-10">
+
+            {/* Experience Card 1 */}
+            <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 border-l-4 border-blue-500 hover:shadow-xl transition duration-300">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Junior Data Analyst
+              </h4>
+              <p className="text-sm text-gray-500 dark:text-gray-300">
+                AI-Based Company – Coimbatore | 6 Months
+              </p>
+
+              <ul className="list-disc pl-5 mt-4 text-gray-600 dark:text-gray-300 space-y-2">
+                <li>Collected and processed large-scale datasets for AI model training.</li>
+                <li>Prepared structured datasets to improve model learning accuracy.</li>
+                <li>Assisted in training AI bots to recognize data patterns.</li>
+                <li>Developed testing datasets to evaluate model performance.</li>
+                <li>Worked with AI team to optimize accuracy and reduce errors.</li>
+                <li>Improved bot reliability through continuous data refinement.</li>
+              </ul>
             </div>
 
-            Project Card 2
-            <div className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-transform duration-300">
-              <div className="p-6">
-                <img src="/place.png" alt="Project 1 Thumbnail" className="h-48 w-full object-cover rounded-t-lg mb-4" />
-                <h3 className="text-center text-xl font-semibold mb-2 dark:text-black">College Placement Portal</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-center">Developed a College Placement Portal with admin and student modules to
-                  streamline and manage the placement process efficiently</p>
-                <div className="text-center mt-4">
-                  <a href="https://github.com/Place-Well/Frontend.git" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View on GitHub</a>
-                </div>
-              </div>
+            {/* Experience Card 2 */}
+            <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Co-Founder / Core Team Member
+              </h4>
+              <p className="text-sm text-gray-500 dark:text-gray-300">
+                AI Digital Marketing Tool – R&D Phase | 2025 – Present
+              </p>
+
+              <ul className="list-disc pl-5 mt-4 text-gray-600 dark:text-gray-300 space-y-2">
+                <li>Collaborating with college peers and industry professionals.</li>
+                <li>Researching AI-powered digital marketing solutions.</li>
+                <li>Exploring automation for content optimization & targeting.</li>
+                <li>Designing AI-based strategies for political & business communication.</li>
+                <li>Working in pre-launch Research & Development phase.</li>
+              </ul>
             </div>
 
-            Project Card 3
-            <div className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-transform duration-300">
-              <div className="p-6">
-                <img src="/web5.png" alt="Project 3 Thumbnail" className="h-48 w-full object-cover rounded-t-lg mb-4" />
-                <h3 className="text-center text-xl font-semibold mb-2 dark:text-black">Portfolio</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-center">Created a personal portfolio website to showcase my projects, skills, and
-                  experiences effectively.</p>
-                <div className="text-center mt-4">
-                  <a href="https://github.com/Midhun62/Portfolio.git" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">View on GitHub</a>
-                </div>
-              </div>
-            </div>
           </div>
-        </section> */}
-
+        </section>
         <section className="py-10" id="contact">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
